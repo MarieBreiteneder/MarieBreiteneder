@@ -1,0 +1,169 @@
+@import url("https://use.typekit.net/inf7hwm.css");
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #577E89;
+    font-family: century-gothic, sans-serif;
+}
+
+h1{
+    font-size: 65px;
+    letter-spacing: 8px;
+    font-weight: 800;
+    color: #D5DFE2;
+    margin: 0px 0px 0px 0px;
+}
+
+h3{
+    font-size: 30px;
+    color: #D5DFE2;
+    margin: 95px 0 0 0;
+    letter-spacing: 8px;
+}
+
+h4{
+    font-size: 20px;
+    color: #D5DFE2;
+}
+
+.subheader{
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 6px;
+    color: #D5DFE2;
+    margin: 7.5px 0px 0px 0px;
+}
+
+.wrapper-about{
+    padding: 70px 215px 0px 140px;
+}
+
+.wrapper-services {
+    padding: 0px 215px 0px 140px;
+}
+
+.wrapper-faq{
+    padding: 0px 215px 0px 140px;
+}
+
+.about{
+    font-size: 20px;
+    color: white;
+    margin: 25px 0 0 0;
+    transition: 0.8s;
+}
+
+.about:hover{
+    font-size: 22px;
+    margin: 20px -30px 0 -40px;
+}
+
+.button-email{
+    border-radius: 57px;
+    padding: 23px 63px;
+    text-transform: uppercase;
+    margin: 60px 0 0 0;
+    display: inline-flex;
+    background-color: #E2D8A7;
+    font-weight: 800;
+    font-size: 25px;
+    color: black;
+    letter-spacing: 2px;
+
+}
+
+.button-reviews{
+    border-radius: 57px;
+    padding: 23px 63px;
+    text-transform: uppercase;
+    margin: 60px 0 0 0;
+    display: inline-flex;
+    background-color: #E2D8A7;
+    font-weight: 800;
+    font-size: 25px;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.subli {
+    list-style-type: none;
+    color: white;
+    padding: 15px 0 0 0;
+    font-weight: 400;
+}
+
+li {
+    color: white;
+    font-weight: 800;
+    padding: 25px 0 0 0;
+    font-size: 18px;
+}
+
+ul{
+    padding: 0px;
+}
+
+.p-blue{
+    font-style: italic;
+    letter-spacing: 2px;
+    margin: 25px 0 0 0;
+    font-size: 20px;
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    right: 0;
+    padding-right: 4%;
+    bottom: 10%
+}
+
+.nav-li {
+    font-size: 13px;
+    font-weight: 800;
+    padding: 5px 0 0 0;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+.nav-li:hover{
+    color: #D5DFE2;
+}
+
+footer{
+    margin: 100px 0 20px 0;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+/*Tele, twitter*/
+.fab, .far {
+    font-weight: 400;
+    color: #212F33;
+    font-size: 30px;
+}
+/*mail*/
+.fa, .fas {
+    font-weight: 900;
+    color: #212F33;
+    font-size: 30px;
+
+}
+
+.icons-wrapper {
+    margin: 7px 0 0;
+
+}
+
+.icon {
+    margin: 0 0px 0 8px;
+
+}
+
+.iocon:hover{
+    color: #D5DFE2;
+    font-size: 31px;
+}

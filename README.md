@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I´m Marie and I like to create things. I´m obsessed with space, retro design, machine-learning an other fancy stuff.
+I´m Marie and I like to create things. I´m obsessed with space, retro design, machine-learning an other fancy stuff.<br>
 Take a look at my Personal website to learn more about me and my work.
 
 <!--

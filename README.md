@@ -1,8 +1,7 @@
 ### Hi there 👋
 
-<h4 style="
-font-family: monospace;">I´m Marie and I like to create things. Im obsessed with space, user experience design, machine-learning an other fancy stuff.<br>
-Take a look at my Personal website to learn more about me and my work.</h4>
+I´m Marie and I like to create things. Im obsessed with space, user experience design, machine-learning an other fancy stuff.<br>
+Take a look at my Personal website to learn more about me and my work.
 
 <!--
 **MarieBreiteneder/MarieBreiteneder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

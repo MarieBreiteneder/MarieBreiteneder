@@ -1,10 +1,10 @@
 var i = 0;
-var txt = 'Hi, I`m Marie';
-var speed = 100;
+var txt = 'Hi, Marie here.';
+var speed = 130;
 
 function typeWriter() {
   if (i < txt.length) {
-    document.getElementById("into").innerHTML += txt.charAt(i);
+    document.getElementById("introType").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }

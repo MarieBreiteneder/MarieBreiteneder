@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+I´m Marie and I like to create things.
+Take a look at my Personal website to learn more about me and my work.
+
 <!--
 **MarieBreiteneder/MarieBreiteneder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

@@ -106,20 +106,6 @@ h4{
 
 }
 
-
-/*.button-reviews{
-    border-radius: 57px;
-    padding: 23px 63px;
-    text-transform: uppercase;
-    margin: 60px 0 0 0;
-    display: inline-flex;
-    background-color: #E2D8A7;
-    font-weight: 800;
-    font-size: 25px;
-    color: black;
-    letter-spacing: 2px;
-    box-shadow: 6px 13px 23px -5px rgb(0 0 0 / 46%);}*/
-
 .subli {
     list-style-type: none;
     color: white;
@@ -249,19 +235,128 @@ footer{
     margin: 0 0px 0 12px;
 }
 
-.back-to-top{
-    border-radius: 57px;
-    padding: 12px 29px;
-    text-transform: uppercase;
-    margin: 50px 0 0 0;
-    display: inline-flex;
-    background-color: #E2D8A7;
-    font-weight: 800;
-    font-size: 17px;
-    color: black;
-    letter-spacing: 2px;
-    text-decoration: none;
-    box-shadow: 6px 6px 10px -5px rgb(0 0 0 / 34%);
-    transition: 0.5s;
-    width: fit-content;
+
+ 
+@media only screen and ( max-width: 1000px) {
+   
+    h1{
+    font-size: 35px;
+    }
+    
+    .blink{
+    font-size: 35px;
+    }
+
 }
+
+@media only screen and ( max-width: 600px) {
+   
+    .wrapper-about, .wrapper-projects, .wrapper-services{
+    padding: 50px 85px 0 45px;
+    }
+
+    .wrapper-intro{
+        margin: 0 -40px 0 -20px;
+    }
+
+    h1{
+    font-size: 24px;
+    }
+
+    .blink{
+    font-size: 24px;
+    }
+
+    .blink::after{
+    box-sizing: border-box;
+    }
+
+    h3{
+        font-size: 20px;
+        margin: 20px 0 0 0;
+    }
+
+    #about{
+        margin-top: 75px;
+    }
+
+    .about{
+        font-size: 17px;
+        transition: 0.5s;
+    }
+
+    .about:hover{
+        font-size: 17.5px;
+        font-weight: 400;
+        margin: 25px 0 0px -10px;
+        transition: 1s;
+    }
+
+    ul{
+        padding: 0px
+    }
+
+    
+    .p-blue{
+        font-size: 17px;
+    }
+
+    .fas, .fab{
+        font-size: 30px;
+    }
+
+    .fas:hover, .fab:hover{
+        font-size: 30px;
+        color: #212F33;
+        margin: auto;
+    }
+
+    .projects-icon {
+        padding: 0 12px;
+        font-size: 22px;
+    }
+
+    .projects-icon:hover {
+        padding: 0 12px;
+        font-size: 22px;
+    }
+
+    li{
+        font-size: 17px;
+    }
+
+    .li-projects:hover{
+        font-size: 17px;
+    }
+
+    .button-email{
+        font-size: 18px;
+        padding: 20px 50px;
+        margin: 50px 0 10px 0
+    }
+
+    .envelope{
+        font-size: 18px;
+    }
+
+    .nav-li{
+        display: none;
+    }
+
+    .icons-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon{
+        margin: 17px 0px 17px 0px;
+    }
+
+    .copyright{
+        font-size: 15px;
+        margin: 20px 70px;
+    }
+ 
+    
+}
+

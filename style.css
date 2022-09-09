@@ -264,7 +264,7 @@ footer{
     }
 
     .blink{
-    font-size: 24px;
+    display: none;
     }
 
     .blink::after{

@@ -4,7 +4,7 @@ I´m Marie and I like to create things. I`m obsessed with space, user experience
 Take a look at my Personal website to learn more about me and my work.
 
 😄 Pronouns: she/they
-🌱 I’m currently learning Java
+🌱 I’m currently learning Java and always more about CSS and JS
 
 
 <!--

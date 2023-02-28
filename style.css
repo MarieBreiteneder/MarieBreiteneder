@@ -76,13 +76,13 @@ h4{
     font-size: 20px;
     color: white;
     margin: 25px 0 0 0;
-    transition: 0.8s;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out 0.2s;
 }
 
 .about:hover{
-    font-size: 21px;
-    margin: 20px -30px 0 -15px;
-}
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out 0.1s;}
 
 .button-email{
     border-radius: 57px;
@@ -114,11 +114,12 @@ h4{
 }
 
 .li-projects{
-    transition: 0.8s;
-}
+    transform: scale(1);
+    transition: all 0.3s ease-in-out 0.2s;}
 
 .li-projects:hover{
-    font-size: 18.5px;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out 0.2s;
     cursor: default;
 }
 
@@ -165,15 +166,14 @@ footer{
     cursor: pointer;
     text-transform: lowercase;
     letter-spacing: 2px;
-    transition: 0.5s;
     color: #212f33;
     text-decoration: none;
-}
+    transition: all 0.3s ease-in-out 0.2s;}
+
 
 .nav-li:hover{
     color: #D5DFE2;
-    font-size: 13.5px;
-}
+    transition: all 0.3s ease-in-out 0.2s;}
 
 /*Tele, twitter*/
 .fab, .far {
@@ -193,15 +193,15 @@ footer{
 
 .fa:hover, .fas:hover{
     color: #D5DFE2;
-    font-size: 24px;
-    margin: -1.2px;
+    /* font-size: 24px;
+    margin: -1.2px; */
 
 }
 
 .fab:hover, .far:hover{
     color: #D5DFE2;
-    font-size: 24px;
-    margin: -1.2px;
+    /* font-size: 24px;
+    margin: -1.2px; */
 }
 
 .icons-wrapper {
@@ -219,9 +219,9 @@ footer{
     font-size: 22px;
 }
 
-.projects-icon:hover{
+/* .projects-icon:hover{
     font-size: 24px;
-}
+} */
 
 .envelope{
     color: black;
@@ -264,7 +264,7 @@ footer{
     }
 
     .blink{
-    display: none;
+    font-size: 24px;
     }
 
     .blink::after{
